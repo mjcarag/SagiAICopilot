@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SagiAICopilot/static/css/main.09ba1233.css",
+    "main.js": "/SagiAICopilot/static/js/main.38e45fab.js",
+    "static/js/453.880f37cc.chunk.js": "/SagiAICopilot/static/js/453.880f37cc.chunk.js",
+    "static/media/Picture5.png": "/SagiAICopilot/static/media/Picture5.326b549f539beaa520f7.png",
+    "index.html": "/SagiAICopilot/index.html",
+    "main.09ba1233.css.map": "/SagiAICopilot/static/css/main.09ba1233.css.map",
+    "main.38e45fab.js.map": "/SagiAICopilot/static/js/main.38e45fab.js.map",
+    "453.880f37cc.chunk.js.map": "/SagiAICopilot/static/js/453.880f37cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09ba1233.css",
+    "static/js/main.38e45fab.js"
+  ]
+}
