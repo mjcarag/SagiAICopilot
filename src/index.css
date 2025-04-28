@@ -1,0 +1,42 @@
+body, .App {
+  font-family: 'Lexend', sans-serif;
+  background-image: url('/public/Picture5.png');
+  background-repeat: no-repeat;
+  background-size: cover; /* or 'contain' if you want to avoid cropping */
+  background-position: center center;
+  background-attachment: fixed; /* Optional: for a parallax-like effect */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Apply to all scrollable containers */
+.scrollable-rounded {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Fix inner content to allow scrolling but keep corners nice */
+.scrollable-rounded-inner {
+  overflow-y: auto;
+  max-height: 100%;
+  padding-right: 10px; /* prevent text from hiding under the scrollbar */
+}
+
+/* Optional: nice custom scrollbar */
+.scrollable-rounded-inner::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-rounded-inner::-webkit-scrollbar-thumb {
+  background-color: #009CA6;
+  border-radius: 4px;
+}
+
+.scrollable-rounded-inner::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
